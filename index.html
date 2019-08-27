@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		#box{
+			width: 800px;
+			height: 1000px;
+			margin: 0 auto;
+			border: 1px solid skyblue;
+			background: url(img/1.jpeg) no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+	</div>
+</body>
+</html>
+<script>
+	var box = document.getElementById('box');
+	// console.log(box.url);
+	var arr = ['img/1.jpeg','img/2.jpeg','img/3.jpeg','img/4.jpeg','img/5.jpeg','img/6.jpeg','img/7.jpeg','img/8.jpeg','img/9.jpeg'];
+	var time = null;
+	var ind = 0;
+	clearInterval(time);
+	time = setInterval(function () {
+		box.style.background = 'url('+arr[ind]+') no-repeat';
+		ind++;
+		if (ind>=arr.length) {
+			ind=0;
+		}	
+	},500)
+	
+</script>
