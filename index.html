@@ -1,35 +1,143 @@
-<!DOCTYPE html> 
- <html lang="en"> 
- <head> 
- <meta charset="UTF-8"> 
- <title>Document</title> 
- <style> 
- #box{ 
- width: 800px; 
- height: 1000px; 
- margin: 0 auto; 
- border: 1px solid skyblue; 
- background: url(img/1.png) no-repeat; 
- } 
- </style> 
- </head> 
- <body> 
- <div id="box"> 
- </div> 
- </body> 
- </html> 
- <script> 
- var box = document.getElementById('box'); 
- // console.log(box.url); 
- var arr = ['img/1.png','img/2.png','img/3.png','img/4.png','img/5.png','img/6.png','img/7.png','img/8.png','img/9.png']; 
- var time = null; 
- var ind = 0; 
- clearInterval(time); 
- time = setInterval(function () { 
- box.style.background = 'url('+arr[ind]+') no-repeat'; 
- ind++; 
- if (ind>=arr.length) { 
- ind=0; 
- }  
- },500) 
- </script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+ 
+<style type="text/css">
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#aa {
+	position: fixed;
+	height: 662px;
+	width: 1366px;
+	background: #FFF;
+}
+#bb {
+	background: #FFF;
+	position: absolute;
+	height: 401px;
+	width: 1398px;
+	left: -31px;
+	top: 0px;
+}
+#cc {
+	background: #09C;
+	position: absolute;
+	height: 63px;
+	width: 1404px;
+	left: -34px;
+	top: 418px;
+	font-size: 36px;
+	color: #FFF;
+}
+#dd {
+	position: absolute;
+	height: 124px;
+	width: 175px;
+	left: 1142px;
+	top: 136px;
+}
+#ee {
+	position: absolute;
+	height: 295px;
+	width: 510px;
+	left: 953px;
+	top: 70px;
+	line-height: 24px;
+}
+#ff {
+	position: absolute;
+	height: 66px;
+	width: 214px;
+	left: 600px;
+	top: 553px;
+	font-size: 45px;
+	font-weight: bold;
+}
+.gg {
+	font-size: 36px;
+}
+#aa #bb #ee table tr td {
+	color: #000;
+}
+#aa #bb #ee table {
+	color: #000;
+}
+#gg {
+	position: absolute;
+	height: 161px;
+	width: 195px;
+	left: 573px;
+	top: -55px;
+	font-size: 16px;
+}
+</style>
+</head>
+ 
+<body>
+<div id="aa">
+  <div id="cc">                                                            青春     奔放    活泼    热情&copy;</div>
+  <div id="bb">
+    <div id="ee">
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td><hr /></td>
+        </tr>
+        <tr>
+          <td><p>姓名：王英泽</p></td>
+        </tr>
+        <tr>
+          <td>性别：男</td>
+        </tr>
+        <tr>
+          <td>年龄：20</td>
+        </tr>
+        <tr>
+          <td>家乡：<a href="">山西省临汾市</a></td>
+        </tr>
+        <tr>
+          <td>就读院校：<a href="http://www.bjwlxy.org.cn">**大学</a></td>
+        </tr>
+        <tr>
+          <td>就读专业：<a href="http://www.bjwlxy.org.cn/a/zhanyeshezhi/jixujiaoyu/h5/">HTML5</a></td>
+        </tr>
+        <tr>
+          <td>学生证号：110.110</td>
+        </tr>
+        <tr>
+          <td>兴趣爱好：学习</td>
+        </tr>
+        <tr>
+          <td>政治面貌：群众</td>
+        </tr>
+        <tr>
+          <td>联系电话：17835331976</td>
+        </tr>
+        <tr>
+          <td>Email:3035724100@qq.com</td>
+        </tr>
+        <tr>
+          <td>关键词：学生</td>
+        </tr>
+        <tr>
+          <td> </td>
+        </tr>
+      </table>
+    </div>
+    <img src="img/1497103056360.jpg" width="1398" height="403" /></div>
+  <div id="ff">
+    <div id="gg">
+      <p> </p>
+      <p> </p>
+      <p> </p>
+      <p><a href="zhuye.html">回到主页</a></p>
+      <form id="form1" name="form1" method="post" action="">
+      </form>
+    </div>
+  About  me</div>
+</div>
+</body>
+</html>
