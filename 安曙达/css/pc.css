@@ -1,0 +1,18 @@
+.header{
+	width: 100%;
+	height: 72px;
+}
+.header .logo{
+	width: 206px;
+	height: 50px;
+}
+.header .logo a{
+	padding: 0 0 10px 238px;
+	box-sizing: border-box;
+}
+.nav{
+	display: inline;
+}
+.nav .catalog>li{
+	float: left;
+}
